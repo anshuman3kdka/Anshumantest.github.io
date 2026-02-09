@@ -1,49 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Archive | Writer & Creative Archivist</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neon Rift</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <a href="index.html" class="logo">ARCHIVE</a>
-            <ul class="nav-links">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="works.html">Works</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
+  <div class="noise"></div>
+  <header class="hero">
+    <nav class="nav">
+      <span class="logo">NEON RIFT</span>
+      <div class="nav-actions">
+        <button class="ghost">Signal</button>
+        <button class="primary">Enter</button>
+      </div>
     </nav>
 
-    <main class="container">
-        <header class="hero">
-            <h1 class="display-text">Writer & <br>Creative Archivist</h1>
-            <p class="subline">Poetry, short fiction, and long-form experiments.</p>
-        </header>
+    <section class="hero-content">
+      <p class="eyebrow">Zero-gravity interface</p>
+      <h1>Drop into the rift where <span>light bends</span> and sound becomes color.</h1>
+      <p class="subhead">
+        A kinetic web shrine built from synthwaves, floating glyphs, and neon circuitry.
+        It reacts to every beat of your cursor.
+      </p>
+      <div class="cta-group">
+        <button class="primary">Ignite the Core</button>
+        <button class="ghost">Watch the Flow</button>
+      </div>
+    </section>
+  </header>
 
-        <section class="featured-image">
-            <div class="image-placeholder">
-                <span>Current Archive Focus</span>
-            </div>
-        </section>
+  <main class="grid">
+    <article class="card">
+      <h2>Pulse Core</h2>
+      <p>Adaptive glow engine that breathes with every hover and click.</p>
+    </article>
+    <article class="card">
+      <h2>Void Stream</h2>
+      <p>Liquid gradients with prismatic depth, perfectly tuned for dark mode.</p>
+    </article>
+    <article class="card">
+      <h2>Echo Array</h2>
+      <p>Layered typography that flickers like holographic signage.</p>
+    </article>
+  </main>
 
-        <section class="intro-grid">
-            <div class="grid-item">
-                <h3>Intent</h3>
-                <p>Exploring the intersection of digital permanence and the ephemeral nature of short-form fiction.</p>
-            </div>
-            <div class="grid-item">
-                <h3>Mediums</h3>
-                <p>Digital Poetry, Critical Essays, Experimental Prose, and Curated Archives.</p>
-            </div>
-        </section>
-    </main>
+  <footer class="footer">
+    <p>Made to feel electric. Built for the future.</p>
+  </footer>
 
-    <footer class="container">
-        <p>&copy; 2026 Archive. All rights reserved.</p>
-    </footer>
+  <canvas id="stars"></canvas>
+  <script src="script.js"></script>
 </body>
 </html>
